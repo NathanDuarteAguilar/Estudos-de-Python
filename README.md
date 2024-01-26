@@ -1,2 +1,3 @@
 # Estudos-de-Python
- Estudos e exercícios em python
+ 
+ Aqui vou demonstrar o que estou aprendendo e treinando em Python
