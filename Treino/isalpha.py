@@ -2,16 +2,18 @@
 print('-------------------------------------------------------------------------------------------------------------------------------------\n\n')
 ##################################################################################################################################################
 
-n1 = int (input("Número 1: "))
-n2 = int (input("Número 2: "))
+#isnumeric verifica se e possivel converter o valor dentro da variavel como String 
 
-total = n1+n2
+a = "1"
+b = "oi"
+c = "1a"
+d = "1.5"
 
-print("A soma dos números é:",total)
-#print("\n")
-print("A soma dos números é:{}".format(total))
-print("A soma entre {} e {} vale {}".format(n1,n2,total))
-
+print("Aprendendo sobre isalpha()\n")
+print("O valor \'1\' é do tipo String? {}".format(a.isalpha()))
+print("O valor \'oi\' é do tipo String? {}".format(b.isalpha()))
+print("O valor \'1a\' é do tipo String? {}".format(c.isalpha()))
+print("O valor \'1.5\' é do tipo String? {}".format(d.isalpha()))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')
