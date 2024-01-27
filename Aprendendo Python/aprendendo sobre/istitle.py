@@ -2,7 +2,7 @@
 print('-------------------------------------------------------------------------------------------------------------------------------------\n\n')
 ##################################################################################################################################################
 
-#istitle verifica se a string tem caracteres maiúsculos
+#istitle verifica se a string é capitalizada
 
 a = "1"
 b = "Oi"
@@ -11,11 +11,11 @@ d = "1.5"
 e = " "
 
 print("Aprendendo sobre istitle()\n")
-print("O valor \'1\' tem caracteres maiúsculos? {}".format(a.istitle()))
-print("O valor \'Oi\' tem caracteres maiúsculos? {}".format(b.istitle()))
-print("O valor \'1a\' tem caracteres maiúsculos? {}".format(c.istitle()))
-print("O valor \'1.5\' tem caracteres maiúsculos? {}".format(d.istitle()))
-print("O valor \' \' tem caracteres maiúsculos? {}".format(e.istitle()))
+print("O valor \'1\' é capitalizado? {}".format(a.istitle()))
+print("O valor \'Oi\' é capitalizado? {}".format(b.istitle()))
+print("O valor \'1a\' é capitalizado? {}".format(c.istitle()))
+print("O valor \'1.5\' é capitalizado? {}".format(d.istitle()))
+print("O valor \' \' é capitalizado? {}".format(e.istitle()))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')
