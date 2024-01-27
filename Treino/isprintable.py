@@ -2,18 +2,18 @@
 print('-------------------------------------------------------------------------------------------------------------------------------------\n\n')
 ##################################################################################################################################################
 
-#isalpha verifica se os caracteres da string são alfabéticos
+#isprintable verifica se os caracteres da string podem ser impressos ou se a string estiver vazia
 
 a = "1"
 b = "Oi"
 c = "1a"
 d = "1.5"
 
-print("Aprendendo sobre isalpha()\n")
-print("O valor \'1\' é do tipo alfabético? {}".format(a.isalpha()))
-print("O valor \'Oi\' é do tipo alfabético? {}".format(b.isalpha()))
-print("O valor \'1a\' é do tipo alfabético? {}".format(c.isalpha()))
-print("O valor \'1.5\' é do tipo alfabético? {}".format(d.isalpha()))
+print("Aprendendo sobre isprintable()\n")
+print("O valor \'1\' pode ser impresso? {}".format(a.isprintable()))
+print("O valor \'Oi\' pode ser impresso? {}".format(b.isprintable()))
+print("O valor \'1a\' pode ser impresso? {}".format(c.isprintable()))
+print("O valor \'1.5\' pode ser impresso? {}".format(d.isprintable()))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')

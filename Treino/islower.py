@@ -2,18 +2,18 @@
 print('-------------------------------------------------------------------------------------------------------------------------------------\n\n')
 ##################################################################################################################################################
 
-#isalpha verifica se os caracteres da string são alfabéticos
+#islower verifica se todos os caracteres dentro da string estão minúsculos 
 
 a = "1"
 b = "Oi"
 c = "1a"
 d = "1.5"
 
-print("Aprendendo sobre isalpha()\n")
-print("O valor \'1\' é do tipo alfabético? {}".format(a.isalpha()))
-print("O valor \'Oi\' é do tipo alfabético? {}".format(b.isalpha()))
-print("O valor \'1a\' é do tipo alfabético? {}".format(c.isalpha()))
-print("O valor \'1.5\' é do tipo alfabético? {}".format(d.isalpha()))
+print("Aprendendo sobre islower()\n")
+print("O valor \'1\' os caracteres são minúsculos? {}".format(a.islower()))
+print("O valor \'Oi\' os caracteres são minúsculos? {}".format(b.islower()))
+print("O valor \'1a\' os caracteres são minúsculos? {}".format(c.islower()))
+print("O valor \'1.5\' os caracteres são minúsculos? {}".format(d.islower()))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')

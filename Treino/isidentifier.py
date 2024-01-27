@@ -2,18 +2,18 @@
 print('-------------------------------------------------------------------------------------------------------------------------------------\n\n')
 ##################################################################################################################################################
 
-#isalpha verifica se os caracteres da string são alfabéticos
+#isidentifier verifica se os caracteres da string são identificadores
 
 a = "1"
 b = "Oi"
 c = "1a"
 d = "1.5"
 
-print("Aprendendo sobre isalpha()\n")
-print("O valor \'1\' é do tipo alfabético? {}".format(a.isalpha()))
-print("O valor \'Oi\' é do tipo alfabético? {}".format(b.isalpha()))
-print("O valor \'1a\' é do tipo alfabético? {}".format(c.isalpha()))
-print("O valor \'1.5\' é do tipo alfabético? {}".format(d.isalpha()))
+print("Aprendendo sobre isidentifier()\n")
+print("O valor \'1\' é um identificador? {}".format(a.isidentifier()))
+print("O valor \'Oi\' é um identificador? {}".format(b.isidentifier()))
+print("O valor \'1a\' é um identificador? {}".format(c.isidentifier()))
+print("O valor \'1.5\' é um identificador? {}".format(d.isidentifier()))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')

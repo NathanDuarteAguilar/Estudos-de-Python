@@ -2,18 +2,22 @@
 print('-------------------------------------------------------------------------------------------------------------------------------------\n\n')
 ##################################################################################################################################################
 
-#isalpha verifica se os caracteres da string são alfabéticos
+#isupper verifica se todos os caracteres da string são maiúsculos
 
 a = "1"
 b = "Oi"
 c = "1a"
 d = "1.5"
+e = " "
+f = "OI"
 
-print("Aprendendo sobre isalpha()\n")
-print("O valor \'1\' é do tipo alfabético? {}".format(a.isalpha()))
-print("O valor \'Oi\' é do tipo alfabético? {}".format(b.isalpha()))
-print("O valor \'1a\' é do tipo alfabético? {}".format(c.isalpha()))
-print("O valor \'1.5\' é do tipo alfabético? {}".format(d.isalpha()))
+print("Aprendendo sobre isupper()\n")
+print("O valor \'1\' são todos maiúsculos? {}".format(a.isupper()))
+print("O valor \'Oi\' são todos maiúsculos? {}".format(b.isupper()))
+print("O valor \'1a\' são todos maiúsculos? {}".format(c.isupper()))
+print("O valor \'1.5\' são todos maiúsculos? {}".format(d.isupper()))
+print("O valor \' \' são todos maiúsculos? {}".format(e.isupper()))
+print("O valor \'OI\' são todos maiúsculos? {}".format(f.isupper()))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')

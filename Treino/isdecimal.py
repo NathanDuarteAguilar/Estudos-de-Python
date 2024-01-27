@@ -2,18 +2,18 @@
 print('-------------------------------------------------------------------------------------------------------------------------------------\n\n')
 ##################################################################################################################################################
 
-#isalpha verifica se os caracteres da string são alfabéticos
+#isdecimal verifica se os caracteres da string são decimais 
 
 a = "1"
 b = "Oi"
 c = "1a"
 d = "1.5"
 
-print("Aprendendo sobre isalpha()\n")
-print("O valor \'1\' é do tipo alfabético? {}".format(a.isalpha()))
-print("O valor \'Oi\' é do tipo alfabético? {}".format(b.isalpha()))
-print("O valor \'1a\' é do tipo alfabético? {}".format(c.isalpha()))
-print("O valor \'1.5\' é do tipo alfabético? {}".format(d.isalpha()))
+print("Aprendendo sobre isdecimal()\n")
+print("O valor \'1\' é um decimal? {}".format(a.isdecimal()))
+print("O valor \'Oi\' é um decimal? {}".format(b.isdecimal()))
+print("O valor \'1a\' é um decimal? {}".format(c.isdecimal()))
+print("O valor \'1.5\' é um decimal? {}".format(d.isdecimal()))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')

@@ -2,18 +2,20 @@
 print('-------------------------------------------------------------------------------------------------------------------------------------\n\n')
 ##################################################################################################################################################
 
-#isalpha verifica se os caracteres da string são alfabéticos
+#istitle verifica se a string tem caracteres maiúsculos
 
 a = "1"
 b = "Oi"
 c = "1a"
 d = "1.5"
+e = " "
 
-print("Aprendendo sobre isalpha()\n")
-print("O valor \'1\' é do tipo alfabético? {}".format(a.isalpha()))
-print("O valor \'Oi\' é do tipo alfabético? {}".format(b.isalpha()))
-print("O valor \'1a\' é do tipo alfabético? {}".format(c.isalpha()))
-print("O valor \'1.5\' é do tipo alfabético? {}".format(d.isalpha()))
+print("Aprendendo sobre istitle()\n")
+print("O valor \'1\' tem caracteres maiúsculos? {}".format(a.istitle()))
+print("O valor \'Oi\' tem caracteres maiúsculos? {}".format(b.istitle()))
+print("O valor \'1a\' tem caracteres maiúsculos? {}".format(c.istitle()))
+print("O valor \'1.5\' tem caracteres maiúsculos? {}".format(d.istitle()))
+print("O valor \' \' tem caracteres maiúsculos? {}".format(e.istitle()))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')

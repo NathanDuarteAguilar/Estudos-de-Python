@@ -2,18 +2,18 @@
 print('-------------------------------------------------------------------------------------------------------------------------------------\n\n')
 ##################################################################################################################################################
 
-#isnumeric verifica se e possivel converter o valor dentro da variavel como int 
+#isnumeric verifica se os caracteres da string são numéricos
 
 a = "1"
-b = "oi"
+b = "Oi"
 c = "1a"
 d = "1.5"
 
 print("Aprendendo sobre isnumeric()\n")
-print("O valor \'1\' é do tipo int ? {}".format(a.isnumeric()))
-print("O valor \'oi\' é do tipo int ? {}".format(b.isnumeric()))
-print("O valor \'1a\' é do tipo int ? {}".format(c.isnumeric()))
-print("O valor \'1.5\' é do tipo int ? {}".format(d.isnumeric()))
+print("O valor \'1\' é numérico ? {}".format(a.isnumeric()))
+print("O valor \'Oi\' é numérico ? {}".format(b.isnumeric()))
+print("O valor \'1a\' é numérico ? {}".format(c.isnumeric()))
+print("O valor \'1.5\' é numérico ? {}".format(d.isnumeric()))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')
