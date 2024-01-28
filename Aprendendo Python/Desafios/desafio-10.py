@@ -6,9 +6,7 @@ print('-------------------------------------------------------------------------
 
 din = float (input("Quanto tem em sua carteira ? "))
 
-dolar = float(3.27)
-
-total = din/dolar
+total = din/3.27
 
 print("Com essa quantidade é possivel comprar {:.2f} dólares".format(total))
 

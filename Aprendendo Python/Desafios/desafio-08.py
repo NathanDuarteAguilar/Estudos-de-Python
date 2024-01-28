@@ -9,8 +9,16 @@ metros = int (input("Valor em metros: "))
 cen = metros*100
 mil = metros*1000
 
-print("O valor dos metros inseridos convertido para centimetros é: {}".format(cen))
-print("O valor dos metros inseridos convertidos para milimetros é: {}".format(mil))
+print("{}km".format(metros/1000))
+print("{}hm".format(metros/100))
+print("{}dam".format(metros/10))
+print("{}dm".format(metros*10))
+print("{}cm".format(metros*100))
+print("{}mm".format(metros*1000))
+
+# outro metodo
+
+print("\nA medida de {}.0m correspode a: \n{}km;\n{}hm;\n{}dam;\n{}dm;\n{}cm;\n{}mm;".format(metros, metros/1000, metros/100, metros/10, metros*10, metros*100, metros*1000))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')

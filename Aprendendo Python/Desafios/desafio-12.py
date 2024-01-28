@@ -6,11 +6,7 @@ print('-------------------------------------------------------------------------
 
 preco = float(input("Insira o valor do produto: "))
 
-desconto = preco * 5 / 100
-
-total =  preco - desconto
-
-print("O valor do produto com 5% de desconto é {}".format(total))
+print("O produto que custava R${}, na promoção com desconto de 5% vai custar R${:.2f}".format(preco, preco-(preco*5/100)))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')

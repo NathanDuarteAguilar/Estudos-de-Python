@@ -12,7 +12,11 @@ raiz = num**(1/2)
 
 print("O dobro do número digitado é: {}".format(dobro))
 print("O triplo do número digitado é: {}".format(triplo))
-print("A raiz quadrada do número digitado é: {}".format(raiz))
+print("A raiz quadrada do número digitado é: {:.2f}".format(raiz))
+
+# outro metodo
+
+print("O dobro do número digitado é {}, o triplo {} e sua raiz quadrada {:.2f}".format(num*2, num*3, num**(1/2)))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')

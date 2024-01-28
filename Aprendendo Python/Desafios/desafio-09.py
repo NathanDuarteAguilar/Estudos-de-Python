@@ -5,16 +5,16 @@ print('-------------------------------------------------------------------------
 # Faça um programa que leia um número inteiro qualquer e mostre na tela sua tabuada
 num = int(input("Digite um número: "))
 
-print("\n01 X {} = {}".format(num, num*1))
-print("02 X {} = {}".format(num, num*2))
-print("03 X {} = {}".format(num, num*3))
-print("04 X {} = {}".format(num, num*4))
-print("05 X {} = {}".format(num, num*5))
-print("06 X {} = {}".format(num, num*6))
-print("07 X {} = {}".format(num, num*7))
-print("08 X {} = {}".format(num, num*8))
-print("09 X {} = {}".format(num, num*9))
-print("10 X {} = {}".format(num, num*10))
+print("\n{} X {:2} = {}".format(num, 1, num*1))
+print("{} X {:2} = {}".format(num, 2, num*2))
+print("{} X {:2} = {}".format(num, 3, num*3))
+print("{} X {:2} = {}".format(num, 4, num*4))
+print("{} X {:2} = {}".format(num, 5, num*5))
+print("{} X {:2} = {}".format(num, 6, num*6))
+print("{} X {:2} = {}".format(num, 7, num*7))
+print("{} X {:2} = {}".format(num, 8, num*8))
+print("{} X {:2} = {}".format(num, 9, num*9))
+print("{} X {} = {}".format(num, 10, num*10))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')
