@@ -2,15 +2,18 @@
 print('-------------------------------------------------------------------------------------------------------------------------------------\n\n')
 ##################################################################################################################################################
 
-# Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugad. Calcule
-# o preço a pagar, sabendo que o carro custa R$60,00 por dia e R$0,15 por km rodado
+# Cria um programa que leia um número Real qualquer pelo teclado e mostre na ela sua porção inteira.
+# Ex: Digite um número: 6.127  o número 6.127 tem parte inteira 6.
 
-dias = int(input("Quantos dias alugados ? "))
-km = int(input("Quantos Km rodados ? "))
+import math
 
-total =  (dias*0)+(km*0.15)
+num = float(input("Digite um valor: "))
 
-print("O total a pagar é de R${}".format(total))
+print("O valor digitado foi {} e a sua porção inteira é {}".format(num, math.trunc(num)))
+
+#fazendo sem blibioteca 
+
+print("\nO valor digitado foi {} e a sua porção inteira é {}".format(num, int(num)))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')

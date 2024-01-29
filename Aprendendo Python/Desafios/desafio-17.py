@@ -2,15 +2,19 @@
 print('-------------------------------------------------------------------------------------------------------------------------------------\n\n')
 ##################################################################################################################################################
 
-# Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugad. Calcule
-# o preço a pagar, sabendo que o carro custa R$60,00 por dia e R$0,15 por km rodado
+# Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo, calcule e mostre o comprimento da hipotenusa
 
-dias = int(input("Quantos dias alugados ? "))
-km = int(input("Quantos Km rodados ? "))
+# conta : cateto oposto = 3, cateto adjacente = 4, resultado = raiz(3² + 4²) / raiz(9 + 16) / raiz(25) / 5
 
-total =  (dias*0)+(km*0.15)
+import math
 
-print("O total a pagar é de R${}".format(total))
+oposto = float(input("Cumprimento do cateto oposto: "))
+adjacente = float(input("Cumprimento do cateto adjacente: "))
+
+
+#print("A hipotenusa vai medir {:.2f}".format(math.sqrt((math.pow(oposto,2))+(math.pow(adjacente,2)))))
+
+print("A hipotenusa vai medir {:.2f}".format(math.hypot(oposto, adjacente)))
 
 ##################################################################################################################################################
 print('\n\n-------------------------------------------------------------------------------------------------------------------------------------')
